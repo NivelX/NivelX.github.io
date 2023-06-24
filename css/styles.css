@@ -1,0 +1,65 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+    --outfit: 'Outfit'
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+body{
+    font-family: var(--outfit);
+    background-color: var(--Lightgray);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    height: 100vh;
+    
+}
+
+
+.container{
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: var(--White);
+    padding: 15px;
+    border-radius: 17px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.text{
+    padding: 7px 10px;
+    text-align: center;
+}
+
+.text h2{
+    font-size: 25px;
+    color: var(--Darkblue);
+    
+    
+}
+
+.text p{
+    font-size: 18px;
+    color: var(--Grayishblue);
+    
+}
+
+
+
+
+
+
+
+
+
